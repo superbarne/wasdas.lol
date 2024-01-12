@@ -8,7 +8,7 @@ var resultContainer = document.getElementById('qr-reader-results');
 let lastResult: string = ''
 let modalShown = false
 console.log(minifiguren)
-async function onScanSuccess(decodedText: string, decodedResult: Html5QrcodeResult) {
+async function onScanSuccess(decodedText: string, _decodedResult: Html5QrcodeResult) {
   if(decodedText !== lastResult && !modalShown) {
     const code = decodedText.split(' ')[0].trim()
     const minifigur = minifiguren.find((minifigur) => minifigur.s.toString() === code || minifigur.r.toString() === code)
