@@ -8,8 +8,6 @@ Stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen, bevor Sie 
 
 - Node.js: [Download Node.js](https://nodejs.org/)
 - npm: In der Regel mit Node.js installiert
-- Yarn (optional, aber empfohlen): [Installationsanweisungen](https://yarnpkg.com/getting-started/install)
-
 ## Projekt starten
 
 Folgen Sie diesen Schritten, um das Projekt lokal zu starten:
@@ -29,25 +27,11 @@ Folgen Sie diesen Schritten, um das Projekt lokal zu starten:
     npm install
     ```
 
-    oder mit Yarn:
-
-    ```bash
-    yarn
-    ```
-
 3. **Entwicklungsmodus starten:**
 
     ```bash
     npm run dev
     ```
-
-    oder mit Yarn:
-
-    ```bash
-    yarn dev
-    ```
-
-    Der Entwicklungsserver wird gestartet und das Projekt sollte unter `http://localhost:3000` erreichbar sein.
 
 ## Beitrag
 
@@ -69,7 +53,6 @@ Make sure you have the following prerequisites before setting up the project:
 
 - Node.js: [Download Node.js](https://nodejs.org/)
 - npm: Usually installed with Node.js
-- Yarn (optional but recommended): [Installation instructions](https://yarnpkg.com/getting-started/install)
 
 ## Getting Started
 
@@ -90,25 +73,12 @@ Follow these steps to start the project locally:
     npm install
     ```
 
-    or with Yarn:
-
-    ```bash
-    yarn
-    ```
 
 3. **Start development mode:**
 
     ```bash
     npm run dev
     ```
-
-    or with Yarn:
-
-    ```bash
-    yarn dev
-    ```
-
-    The development server will start, and the project should be accessible at `http://localhost:3000`.
 
 ## Contribution
 
